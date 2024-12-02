@@ -1,5 +1,3 @@
 # python
 
-this is python tranning
-
-## this is day third
+This is python Tranning
