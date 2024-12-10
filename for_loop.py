@@ -17,3 +17,5 @@ for letter in animal:
 name = "tribhuvanuniversity"
 for i in range(18, -1, -1):#reverse string
     print(name[i],end=',')
+
+
