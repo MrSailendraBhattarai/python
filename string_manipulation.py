@@ -25,7 +25,7 @@ print(father_name.title())#all word first letter capital
 a= "abcdefghijklaa"
 print(a.casefold())# lowercase
 print(a.count("a"))#count all words
-print(a.find("i"))#find words available in strings
+print(a.find("i"))#find words position available in strings
 print(a.endswith("laa"))#find last word of string
 print(len(a))#find length of string
 print(a.islower())#Returns True if all characters in the string are lower case
