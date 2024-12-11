@@ -57,6 +57,6 @@ for i in range(2):
     
     details.append(total_data)
 
-for data in details:
-    print([f"{data[0]},{data[1]},{data[2]}"], end=",")
+for i in details:
+    print([f"{i[0]},{i[1]},{i[2]}"], end=",")
 
