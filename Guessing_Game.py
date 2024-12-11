@@ -1,4 +1,4 @@
-"""import random
+import random
 n=random.randint(1,100)
 
 for i in range(0,5):
@@ -11,12 +11,12 @@ for i in range(0,5):
         print("congratulations")
         break
 else:
-    print(f"You Have Time Out. The Number is: {n}")"""
+    print(f"You Have Time Out. The Number is: {n}")
 
 
 
 
 
 
-"""for i in range(25,14,-1):
-    print(i)"""
+for i in range(25,14,-1):
+    print(i)
