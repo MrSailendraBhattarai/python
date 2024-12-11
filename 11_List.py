@@ -1,5 +1,5 @@
 #wap to take 5 friends data and store in list
-"""details = []
+details = []
 
 for i in range(2):
     name = input("Enter Your Name: ")
@@ -12,6 +12,6 @@ for i in range(2):
     total_data.append(address)
     
     details.append(total_data)
-print(details)"""
+print(details)
 
 
