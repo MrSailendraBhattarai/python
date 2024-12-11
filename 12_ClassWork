@@ -1,5 +1,5 @@
 #swap value of a & b
-"""a=5
+a=5
 b=9
 print("Before Swap A: ",a)
 print("Berore Swap B: ",b)
@@ -10,7 +10,7 @@ b=temp
 
 a,b=b,a#swap value without using temp variable
 print("After Swap A: ",a)
-print("After Swap B: ",b)"""
+print("After Swap B: ",b)
 
 
 # Square of Every items in list
