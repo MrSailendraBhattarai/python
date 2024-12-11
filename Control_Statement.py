@@ -13,5 +13,4 @@ for i in range(10):
         pass
 
 import os
-
-print('You are in : ', os.getcwd())
+print('You are in : ', os.getcwd())#show where you located
