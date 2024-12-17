@@ -1,8 +1,8 @@
-"""name="kathmandu"
+name="kathmandu"
 for letter in name:
     full_letter= "@"+letter
     print(full_letter)
-"""
+
 
 
 animal = ('apple', 'cat', 'dog', 'cow', 'orange')
