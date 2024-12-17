@@ -1,4 +1,5 @@
 #make a software which takes user data as input and store students in dictionary and their subjects mark.
+#add student
 #delete student
 #search student
 #update student
