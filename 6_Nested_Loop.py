@@ -1,7 +1,7 @@
-"""for i in ('AB'):
+for i in ('AB'):
     print(i)
     for j in ('CD'):
-        print(j)"""
+        print(j)
 
 
 for i in range (6,1,-1):

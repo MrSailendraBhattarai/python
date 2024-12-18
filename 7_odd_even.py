@@ -1,14 +1,14 @@
-
-"""num=int(input("Enter any number"))
+#check Given Num is odd/even
+num=int(input("Enter any number"))
 
 if(num%2==0):
     print("even")
 else:
-    print("odd")"""
+    print("odd")
 
 
-    #prime number
-"""num=int(input("Enter any number"))
+#Check Given num is prime or composite
+num=int(input("Enter any number"))
 start=1
 count=0
 
@@ -22,7 +22,6 @@ if(count>2):
     print("composite")
 else:
     print("prime")
-    """
 
 n=100
 :top
