@@ -6,6 +6,8 @@ def Bs_Ad(a, b, c):
     
     
     Ad = (f"AD Year: {a}, Month: {b}, Day: {c}")
+    if a%4==0:
+        leap()
     print(Ad)
 
 def Ad_Bs(a, b, c):
@@ -16,9 +18,12 @@ def Ad_Bs(a, b, c):
     
     
     Bs = (f"Bs Year: {a}, Month: {b}, Day: {c}")
+    if a%4==0:
+        leap()
     print(Bs)
 
-
+def leap():
+    print("It is Leap Year: ")
 n = int(input("Enter Options \n 1: BS to AD \n 2: AD to BS \n"))
 
 if n == 1:
