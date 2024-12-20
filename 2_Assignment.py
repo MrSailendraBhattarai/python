@@ -10,7 +10,7 @@ Delete
 list_1.remove('apple')
 
 Access 
-if item in list_1:
+for item in list_1:
     print(item[0])
 
 Add 
@@ -25,7 +25,7 @@ Delete
 del Dict_1[1]
 
 Access
-if 2 in Dict_1:
+for 2 in Dict_1:
     print(Dict_1[2])
 
 Add 
@@ -35,7 +35,7 @@ Dict_1[3]={
 
 Tuple= It is used to store multiple value in single variable. It is Ordered and un-changable. 
 It allow to store duplicate values.
-Eg:-
+eg:-
 Create
 tuple_1=('apple','ball','cat')
 
@@ -50,7 +50,7 @@ new_element=dog
 appended_tuple=tuple_1+(new_element,)
 
 Set= It is a collection which is un-changable, un-Ordered & un-indexed.
-
+eg:-
 Create
 set_1={'apple','ball'}
 
@@ -93,4 +93,4 @@ def add(a,b):
 with parameter and with return Types
 def add(a,b):
     c=a+b 
-    return c 
+    return c

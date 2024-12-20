@@ -33,3 +33,12 @@ print(a.startswith("b"))#Returns true if the string starts with the specified va
 print(a.index("g"))#Searches the string for a specified value and returns the position of where it was found
 print(a.center(30,"*"))#Returns a centered string
 print(a.isalnum())#Returns True if all characters in the string are alphanumeric
+
+# largest and smallest number
+n="0123456"
+print(max(n))
+print(min(n))
+
+#count word in sentence
+a='python is fun'
+print(len(a.split()))
