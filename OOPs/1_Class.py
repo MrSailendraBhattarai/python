@@ -4,3 +4,6 @@ class person():
 
 ram=person()
 print(ram.Country)
+
+
+
