@@ -8,15 +8,16 @@ class Employee:
 
 
     def salary_1(self,salary,bonus):
-        salary=salary+(salary*bonus/100)
-        return salary
+        bonus=salary*bonus/100
+        salary=salary+bonus
+        return salary,bonus
     def data(self):
         for item in self.list_1:
             name=item['name']
             salary=item['salary']
-            bonus=item['bonus']
-            total_salary=self.salary_1(salary,bonus)
-            print(f'Name: {name}, Salary with Bonus: {total_salary}, Bonus: {bonus}%')
+            bonuss=item['bonus']
+            total_salary,bonus=self.salary_1(salary,bonuss)
+            print(f'Name: {name}, Salary: {salary}, Salary with Bonus: {total_salary},Bonus Amount: {bonus} Bonus%: {bonuss} ')
 
 e=Employee()
 e.data()
