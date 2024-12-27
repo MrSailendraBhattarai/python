@@ -63,12 +63,12 @@ class ComputerShop:
         data = f.read()
         print(data)
 
-    def delete(self):
-        a=input("Enter Computer Id to Delete:  ")
-        f=open("readme.txt")
-        data=f.readlines()
+    # def delete(self):
+    #     a=input("Enter Computer Id to Delete:  ")
+    #     f=open("readme.txt")
+    #     data=f.readlines()
 
-        for item in data:
+    #     for item in data
 
 a = int(input("Enter Options: \n 1 Store Computer \n 2 Search Computer \n 3 Show All Computers \n 4 Delete Computer \n"))
 CS = ComputerShop(a)
