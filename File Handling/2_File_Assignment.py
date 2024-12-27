@@ -14,6 +14,7 @@
 # f=open("readme.txt","r")
 # print(f.read())
 
+#WAP to make a system for computer shop to store computers data like, computer name,brand,price,id,generation,core
 
 class ComputerShop:
     def __init__(self, options):
