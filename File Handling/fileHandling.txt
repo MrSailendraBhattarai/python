@@ -9,3 +9,8 @@ x	Exclusive creation mode. Creates a new file and fails if it already exists.
 r+	Read and write mode. Opens a file for both reading and writing. The file must exist.
 w+	Write and read mode. Opens a file for both writing and reading. Creates a new file if it doesn’t exist or truncates the file if it exists.
 a+	Append and read mode. Opens a file for appending and reading. Creates a new file if it doesn’t exist.
+
+
+
+readline() display single line
+readlines() put all data in list and display

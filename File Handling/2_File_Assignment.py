@@ -43,7 +43,7 @@ class ComputerShop:
             self.list_1.append(data)
 
         with open("readme.txt", "a") as file_obj:
-            file_obj.write(str(self.list_1) + "\n")
+            file_obj.write("\n"+str(self.list_1))
         
         print("Data Added Successfully")
 
@@ -64,12 +64,27 @@ class ComputerShop:
         data = f.read()
         print(data)
 
-    # def delete(self):
-    #     a=input("Enter Computer Id to Delete:  ")
-    #     f=open("readme.txt")
-    #     data=f.readlines()
+    def delete(self):
+        f=open("readme.txt")
+        a=input("Enter Computer Id to Delete:  ")
+        data=f.readlines()
 
-    #     for item in data
+        for item in data:
+            if 'a' in item[0]:
+                data.remove(item)
+            print(item)
 
 a = int(input("Enter Options: \n 1 Store Computer \n 2 Search Computer \n 3 Show All Computers \n 4 Delete Computer \n"))
 CS = ComputerShop(a)
+
+
+
+
+
+def delete(self):
+        search_id = input("Enter the ID of the computer to delete: ").strip()
+        with open(self.file_path, 'r') as file:
+            lines = [line for line in file if not line.startswith(search_id)]
+        with open(self.file_path, 'w') as file:
+            file.writelines(lines)
+        print("Deleted successfully!")

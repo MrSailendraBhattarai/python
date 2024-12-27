@@ -1,4 +1,3 @@
-[{'Id': 1, 'Name': 'acer', 'price': 12000}, 
-{'Id': 2, 'Name': 'dell', 'price': 23000}]
-[{'Id': 3, 'Name': 'lenovo', 'price': 45000}, 
-{'Id': 5, 'Name': 'hp', 'price': 67000}]
+
+Id: 1,Name: acer,Brand: i5,Price: 120000,Quantity: 12
+Id: 2,Name: dell,Brand: i9,Price: 23000,Quantity: 45
