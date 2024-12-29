@@ -1,3 +1,2 @@
-
-Id: 1,Name: acer,Brand: i5,Price: 120000,Quantity: 12
-Id: 2,Name: dell,Brand: i9,Price: 23000,Quantity: 45
+1,Acer,extensa,20000,12
+2,Dell,Vostro,23000,23
