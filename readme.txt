@@ -1,2 +1,1 @@
-1,Acer,extensa,20000,12
-2,Dell,Vostro,23000,23
+1,Acer,12000,2 
