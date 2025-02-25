@@ -1,3 +1,3 @@
 # python
 
-This is python Tranning
+This is python Trainning.
